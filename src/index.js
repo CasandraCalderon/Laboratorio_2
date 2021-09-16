@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MemoryComponent } from "./apps/Memory/MemoryComponent";
-ReactDOM.render( <MemoryComponent />, document.getElementById('root'));
+import { HangManComponent } from './apps/hangMan/HangManComponent';
+
+ReactDOM.render( <HangManComponent />, document.getElementById('root'));

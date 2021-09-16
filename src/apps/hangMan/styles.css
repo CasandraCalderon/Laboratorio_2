@@ -4,17 +4,17 @@ body {
   margin: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: #D7BDE2 ;
-  color: rgb(255, 255, 255);
+  background-color: rgb(252, 252, 252);
+  color: #000;
 }
-.container {
+.flex-container {
   border: 1px solid #fff;
   display: flex;
   flex-flow: row wrap;
   padding: 10px;
   /* background-color: coral; */
 }
-.item {
+.flex-container div {
   background-color: cornflowerblue;
   border-radius: 3px;
   text-align: center;
@@ -26,12 +26,8 @@ body {
   cursor: pointer;
   transition: ease 0.5s;
 }
-.item1 {
+.flex-container div:hover {
   background-color: darkgoldenrod;
-  border: 1px solid #fff;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 10px;
 }
 .flex-container .disablediv {
   color: #000;
@@ -50,6 +46,7 @@ body {
   display: flex;
   flex-flow: wrap row;
 }
+
 .word div {
   border: 1px solid #000;
   width: 50px;
